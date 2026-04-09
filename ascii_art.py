@@ -1,4 +1,12 @@
+"""
+ASCII art stages for the Snowman Meltdown game.
+
+This module contains the visual representations of the snowman
+at various stages of melting, from fully intact to completely melted.
+"""
+
 # Snowman ASCII Art stages (7 stages for smoother melting)
+# Index 0 = full snowman, Index 6 = completely melted
 STAGES = [
     # Stage 0: Full snowman
     """
