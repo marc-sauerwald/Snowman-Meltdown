@@ -1,29 +1,69 @@
-# Snowman ASCII Art stages
+# Snowman ASCII Art stages (7 stages for smoother melting)
 STAGES = [
     # Stage 0: Full snowman
     """
-      ___
-     /___\\
-     (o o)
-     ( : )
-     ( : )
+       _===_
+      / o o \\
+     (   "   )
+      \\_____/
+     /|     |\\
+    / |     | \\
+      |     |
+     _|     |_
+    (_|_____|_)
     """,
-    # Stage 1: Bottom part starts melting
+    # Stage 1: Starting to melt slightly
     """
-      ___
-     /___\\
-     (o o)
-     ( : )
+       _===_
+      / o o \\
+     (   "   )
+      \\_____/
+     /|     |\\
+    / |     | \\
+      |     |
+     _|_____|_
     """,
-    # Stage 2: Only the head remains
+    # Stage 2: Arms drooping
     """
-      ___
-     /___\\
-     (o o)
+       _===_
+      / o o \\
+     (   "   )
+      \\_____/
+      /|   |\\
+      |     |
+     _|_____|_
     """,
-    # Stage 3: Snowman completely melted
+    # Stage 3: Body shrinking
     """
-      ___
-     /___\\
+       _===_
+      / o o \\
+     (   "   )
+      \\_____/
+       |   |
+      _|___|_
+    """,
+    # Stage 4: Lower body gone
+    """
+       _===_
+      / o o \\
+     (   "   )
+      \\_____/
+       ~~~~~
+    """,
+    # Stage 5: Only head remains
+    """
+       _===_
+      / o o \\
+     (   "   )
+      ~~~~~~~
+    """,
+    # Stage 6: Completely melted - just a puddle
+    """
+
+      ~~~~~~~
+     ~~~~~~~~~
+      ~~~~~~~
+
+    [RIP Snowman]
     """
 ]
